@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenLeaf - Eco-friendly Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div id="loader" class="skeleton-loader">
+        <div class="skeleton-header"></div>
+        <div class="skeleton-hero"></div>
+        <div class="skeleton-features"></div>
+        <div class="skeleton-testimonials"></div>
+        <div class="skeleton-pricing"></div>
+        <div class="skeleton-contact"></div>
+    </div>
+
+    <header>
+        <div class="logo"><img src="logo.png" alt="GreenLeaf Logo" /></div>
+        <nav>
+            <div class="burger-menu" id="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <label class="switch" id="dark-mode-switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <i class="fas fa-moon slider round"></i>
+        </label>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to GreenLeaf</h2>
+            <p style="">Eco-friendly products for a sustainable future. Join the green revolution today!</p>
+            <a href="#" class="btn" style="color:white">Learn more</a>
+        </div>
+    </section>
+
+        <section id="features" class="section fade-in">
+            <h2>Product Features</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <i class="fas fa-leaf feature-icon"></i>
+                    <h3>Eco-Friendly</h3>
+                    <p>Our products are made from 100% natural materials that are safe for the environment and your family.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-recycle feature-icon"></i>
+                    <h3>Recyclable</h3>
+                    <p>GreenLeaf products can be easily recycled, reducing waste and supporting a cleaner planet.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-hand-holding-water feature-icon"></i>
+                    <h3>Water-Efficient</h3>
+                    <p>Designed to conserve water while providing optimal performance in every use.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section fade-in">
+            <h2>Customer Reviews</h2>
+            <div class="testimonial">
+                <img src="client1.jpg" alt="Customer 1" class="customer-photo">
+                <blockquote>"GreenLeaf has changed my life! The products are amazing and truly eco-friendly."</blockquote>
+                <p>- Prince Hymn</p>
+            </div>
+            <div class="testimonial">
+                <img src="client3.jpg" class="customer-photo">
+                <blockquote>"I love the quality and sustainability of GreenLeaf products. Highly recommended!"</blockquote>
+                <p>- Jeacy Oxanna</p>
+            </div>
+        </section>
+
+        <section id="pricing" class="section fade-in">
+            <h2>Pricing Options</h2>
+            <div class="pricing-tiers">
+                <div class="pricing-tier">
+                    <h3>Basic Package</h3>
+                    <p>$29.99</p>
+                    <button class="cta-button">Buy Now</button>
+                </div>
+                <div class="pricing-tier">
+                    <h3>Premium Package</h3>
+                    <p>frw 49,5000.99</p>
+                    <button class="cta-button">Buy Now</button>
+                </div>
+                <div class="pricing-tier">
+                    <h3>Ultimate Package</h3>
+                    <p>frw 79,000.99</p>
+                    <button class="cta-button">Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section fade-in">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" >
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" ></textarea>
+                
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 GreenLeaf. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
